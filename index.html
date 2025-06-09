@@ -13,9 +13,29 @@
 <body>
     <header>
         <div>
-            <h1 class="titulo">Uma Cidade Inteligente e Ecológica Ideal</h1>
+            <h1 class="titulo">Uma Cidade Inteligente e Ecológica Ideal 🍃</h1>
         </div>
-        <img src="img/img-menu.jpg" height="450" width="100%">
+        <img class="titulo-script " src="img/img-menu.jpg" height="450" width="100%">
     </header>
+        
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const footer = document.querySelector("titulo-script");
+    
+            function checkFooterVisibility() {
+                const footerPosition = footer.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.0; // Dispara quando o footer está a 100% da tela
+        
+                if (footerPosition < screenPosition) {
+                    footer.classList.add("visible");
+                    window.removeEventListener("scroll", checkFooterVisibility);
+                }
+            }
+    
+            window.addEventListener("scroll", checkFooterVisibility);
+            checkFooterVisibility();
+        });
+    </script>
 </body>
+
 </html>
