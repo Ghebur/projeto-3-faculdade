@@ -1,0 +1,22 @@
+body, h1, ul, li, a {
+    background-color: #E6DCC8;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 20px;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #1d2b23;
+}
