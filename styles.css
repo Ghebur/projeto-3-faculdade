@@ -38,7 +38,6 @@ body, h1, ul, li, a {
     font-weight: bold;
     color:#2c3b33;
     font-family: 'Nunito', sans-serif;
-
 }
 
 .login {
@@ -74,7 +73,6 @@ body, h1, ul, li, a {
     line-height: 1.6;  /* espaçamento entre linhas */
     color: #333;
     text-align: center; 
-    max-width: 100%;
 }
 
 /* lado a lado */
@@ -101,7 +99,7 @@ body, h1, ul, li, a {
 .titulo_saber_mais {
     font-family: "Nunito", sans-serif;
     color: #1d2b23;
-    font-size: 28px;
+    font-size: 23px;
     margin-bottom: 20px;
 }
 
