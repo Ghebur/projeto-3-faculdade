@@ -29,7 +29,7 @@ body, h1, ul, li, a {
 
 .cabecalho_superior {
     display: flex; /* flex para ser mais flexivel */
-    justify-content: space-between; /* alinha título e nav em lados opostos */
+    justify-content: center; /* alinha título e nav em lados opostos */
     align-items: center; /* centraliza verticalmente */
     margin-bottom: 10px;
 }

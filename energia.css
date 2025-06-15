@@ -56,7 +56,7 @@ h2 {
 
 .imagem-secao {
   width: 100%;
-  max-height: 300px;
+  max-height: 500px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -70,4 +70,15 @@ ul {
 
 ul li {
   margin-bottom: 8px;
+}
+
+.reveal { 
+  opacity: 0; /*Começa escondido*/
+  transform: translateY(30px); /*está 30px para baixo*/
+  transition: 0.8s ease; /*para a animaçao fica suave*/
+}
+
+.reveal.ativo { /*aciona o js e com uma animaçao suave, volta para a posiçao original*/
+  opacity: 1; 
+  transform: translateY(0);
 }
