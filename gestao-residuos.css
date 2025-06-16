@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f4f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #5d7a5d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.assunto {
+  color: #2f472f;
+  justify-self: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 45px;
+  font-family:"Poppins", sans-serif;
+}
+
+h2 {
+  color: #5d7a5d;
+  margin-bottom: 15px;
+}
+
+.imagem-secao {
+  width: 85%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.container_bloco_pontos {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+}
+
+.bloco_pontos {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 85%; 
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reveal { 
+  opacity: 0; 
+  transform: translateY(30px); 
+  transition: 0.8s ease; 
+}
+
+.reveal.ativo { 
+  opacity: 1; 
+  transform: translateY(0);
+}
